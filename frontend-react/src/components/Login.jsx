@@ -30,7 +30,7 @@ const Login = () => {
       console.log("Login Successful");
       setIsLoggedIn(true)
       setError('')
-      navigate('/')
+      navigate('/dashboard')
     }catch(error){
       setError('Invalid Credentials')
       console.log('Invalid Response')
